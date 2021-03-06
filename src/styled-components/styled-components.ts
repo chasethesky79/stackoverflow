@@ -17,7 +17,7 @@ text-align: center
 export const HeaderWrapper = styled.header`
 text-align: center;
 background-color: #222;
-height: 70px;
+height: 60px;
 padding: 10px;
 color: white;
 `
