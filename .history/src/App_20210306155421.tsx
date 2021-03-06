@@ -1,14 +1,14 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
 import { AppWrapper, GlobalStyle } from './styled-components/styled-components';
-import { Header } from './components/Header';
 
 function App() {
   return (
     <>
     <GlobalStyle/>
     <AppWrapper>
-      <Header/>
+      
     </AppWrapper>
     </>
   );
