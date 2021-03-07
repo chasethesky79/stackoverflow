@@ -1,5 +1,9 @@
 export interface IQuestion {
-    questionId: number;
+    question_id: number;
+    title: string;
+    view_count: number;
+    answer_count: number;
+    owner: string;
 }
 
 export interface ILoadingComponentProps {
@@ -13,3 +17,6 @@ export interface IQuestions {
 
 export type IFeedComponentState = IQuestions & ILoadingComponentProps & { page: number };
 
+export type ICardProps = {
+    question: IQuestion
+}

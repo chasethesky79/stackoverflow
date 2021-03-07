@@ -24,6 +24,10 @@ color: white;
 
 export const Title = styled.h1`
 pointer-events: none;
+width: 100%;
+padding-bottom: 10px;
+text-align: center;
+border-bottom: 1px solid darkGray;
 `;
 
 export const FeedWrapper = styled.div`
@@ -35,4 +39,18 @@ margin: 5%;
 
 export const Alert = styled.div`
 text-align: center
+`
+
+export const CardWrapper = styled.div`
+background: lightGray;
+text-align: left;
+padding: 1%;
+border-radius: 5px;
+margin-bottom: 2%;
+`
+export const Meta = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 2%;
 `
