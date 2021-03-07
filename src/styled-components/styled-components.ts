@@ -25,3 +25,14 @@ color: white;
 export const Title = styled.h1`
 pointer-events: none;
 `;
+
+export const FeedWrapper = styled.div`
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+margin: 5%;
+`
+
+export const Alert = styled.div`
+text-align: center
+`
